@@ -1,21 +1,21 @@
 {
-  "name": "parcel-template",
+  "name": "hw5",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://pla1nn.github.io/parcel-template",
+  "homepage": "https://pla1nn.github.io/hw5",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-template/"
+    "build": "parcel build src/*.html --public-url /hw5/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pla1nn/parcel-template.git"
+    "url": "git+https://github.com/pla1nn/hw5.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pla1nn/parcel-template/issues"
+    "url": "https://github.com/pla1nn/hw5/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
