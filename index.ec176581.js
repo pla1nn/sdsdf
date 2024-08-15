@@ -1,0 +1,2 @@
+!function(){var e=document.getElementById("key"),t=document.getElementById("newGame"),n=["q","w","e","r","t","y","u","i","o","p"],o=0;function d(){o=Math.random()*n.length,e.textContent=n[o]}document.addEventListener("keydown",(function(e){e.key===n[o]?d():PNotify.alert({text:"неправильна клавіша!"})})),document.addEventListener("keypress",(function(e){e.preventDefault()})),t.addEventListener("click",(function(){d(),PNotify.success({text:"розпочато нову гру!"})}))}();
+//# sourceMappingURL=index.ec176581.js.map
