@@ -35,3 +35,20 @@ body {
             outline: none;
             border: 1px solid #aaa;
         }
+
+        #newGame {
+            width: 140px;
+            height: 27px;
+            border-radius: 4px;
+            background-color: #2196F3;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+            color: #fff;
+            transition: 400ms ease-in-out;
+            margin: 0 auto;
+            margin-top: 5px;
+        }
+        
+        #newGame:hover {
+            color: #000;
+            transform: scale(1.01);
+        }
