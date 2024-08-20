@@ -1,2 +1,0 @@
-const e=document.getElementById("key"),t=document.getElementById("newGame"),n=["q","w","e","r","t","y","u","i","o","p"];let d=0;function o(){d=Math.random()*n.length,e.textContent=n[d]}document.addEventListener("keydown",(e=>{e.key===n[d]?o():PNotify.alert({text:"неправильна клавіша!"})})),document.addEventListener("keypress",(e=>{e.preventDefault()})),t.addEventListener("click",(()=>{o(),PNotify.success({text:"розпочато нову гру!"})}));
-//# sourceMappingURL=index.917747d9.js.map
