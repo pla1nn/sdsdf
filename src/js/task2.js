@@ -50,17 +50,10 @@ const chartData = {
   ],
 };
 
-const config = {
-  type: 'line',
-  data: chartData,
-  options: {},
-  plugins: [],
-};
-
 
 const element = document.getElementById('sales-chart').getContext('2d');
 
-const salesChart = (Chart = new Chart(element, {
+const salesChart = new Chart(element, {
   type: 'line',
   data: chartData,
   options: {
@@ -75,4 +68,4 @@ const salesChart = (Chart = new Chart(element, {
       },
     },
   },
-}));
+});
