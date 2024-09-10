@@ -1,21 +1,21 @@
 {
-  "name": "hw5",
+  "name": "async",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://pla1nn.github.io/hw5",
+  "homepage": "https://pla1nn.github.io/async",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /hw5/"
+    "build": "parcel build src/*.html --public-url /async/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pla1nn/hw5.git"
+    "url": "git+https://github.com/pla1nn/async.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pla1nn/hw5/issues"
+    "url": "https://github.com/pla1nn/async/issues"
   },
   "dependencies": {
     "chart.js": "^4.4.3",
