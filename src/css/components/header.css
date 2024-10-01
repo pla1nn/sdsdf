@@ -1,0 +1,117 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 666;
+
+    height: 80px;
+
+    box-shadow: 0 0 2px #470012, 0 0 30px #470012;
+    background-color: #1a1a1a;
+}
+
+.logo {
+    font-family: 'angel';
+    color: #c5c5c5;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+
+    height: 40px;
+    width: 40px;
+    transition: text-shadow 0.4s ease, color 0.4s ease, transform 0.4s ease;
+
+}
+
+/* .logo:hover, .logo:focus {
+  color: #7a002b;
+  transform: scale(1.05);
+  text-shadow: 0 0 20px #7a002b, 0 0 30px #7a002b;
+} */
+
+
+
+.nav_logo {
+}
+.nav {
+}
+
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+
+    color: #c5c5c5;
+}
+
+.nav_item {
+  transition: text-shadow 0.3s ease;
+  transition: color 0.3s ease;
+
+}
+
+.nav_item:hover,
+:focus {
+  color: #7a002b;
+  text-shadow: 0 0 20px #7a002b, 0 0 30px #7a002b;
+}
+
+.nav_item:not(:last-child) {
+    margin-right: 100px;
+}
+
+.nav_link {
+  display: inline-block;
+  font-size: 15px;
+}
+
+.header_button {
+    margin-right: 20px;
+
+}
+
+.cart_container {
+  position: relative;
+}
+
+.cart_button {
+  background-color: #1a1a1a;
+  border: none;
+}
+
+.cart_button:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+.bag_icon {
+  width: 40px;
+  height: 40px;
+
+  fill: #c5c5c5;
+  transition: fill 0.4s ease, transform 0.4s ease;
+}
+
+.bag_icon:hover, .bag_icon:focus {
+  fill: #7a002b;
+  transform: scale(1.05);
+}
+
+.cart_number {
+  position: absolute;
+  top: -10px;
+  left: 29px;
+
+  display: none;
+
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  color: #c5c5c5;
+  background-color: #7a002b;
+  border-radius: 100%;
+}
