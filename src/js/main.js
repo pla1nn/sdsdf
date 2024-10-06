@@ -7,7 +7,7 @@ let cart = JSON.parse(localStorage.getItem("cart")) || [];
 let itemCount = cart.length;
 
 cartButton.addEventListener("click", () => {
-  window.location.href = "../partials/cart.html";
+  window.location.href = "../cart.html";
 });
 
 if (itemCount === 0) {

@@ -64,8 +64,8 @@ function renderCartItems() {
       </div>  
       <p class="cart_price">${item.price}</p>
       <button type="button" class="cart_delete_button">
-        <svg class='close_icon'>
-          <use href="./symbol-defs.svg#close"></use>
+        <svg class='close_icon' viewBox="0 0 32 32">
+          <path d="M29.835 0l-13.835 13.882-13.835-13.882-2.119 2.112 13.842 13.888-13.842 13.889 2.119 2.111 13.835-13.881 13.835 13.881 2.119-2.111-13.842-13.889 13.842-13.888z"></path>
         </svg>  
       </button>  
     `;
@@ -135,6 +135,6 @@ function renderCartItems() {
 
 function checkCart() {
   if (cart.length === 0) {
-    window.location.href = '../index.html';
+    window.location.href = './index.html';
   }
 }
