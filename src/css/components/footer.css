@@ -8,11 +8,15 @@ footer {
   }
 
   .footer_container {
-    
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+    padding-top: 29px;
   }
 
   .footer_container * {
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
   
   .footer_title {
