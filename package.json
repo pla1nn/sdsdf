@@ -1,21 +1,21 @@
 {
-  "name": "async",
+  "name": "sdsdf",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://pla1nn.github.io/async",
+  "homepage": "https://pla1nn.github.io/sdsdf",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /async/"
+    "build": "parcel build src/*.html --public-url /sdsdf/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pla1nn/async.git"
+    "url": "git+https://github.com/pla1nn/sdsdf.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pla1nn/async/issues"
+    "url": "https://github.com/pla1nn/sdsdf/issues"
   },
   "dependencies": {
     "chart.js": "^4.4.3",

@@ -42,6 +42,7 @@ function addToCart(e) {
   itemCount++;
   updateCartNumber();
   checkCart(); 
+  e.stopPropagation();
 }
 
 function updateCartNumber() {

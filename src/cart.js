@@ -7,16 +7,16 @@ const cartNumber = document.querySelector('.cart_number');
 const cartButton = document.querySelector('.cart_button');
 
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
-let itemCount = cart.length;
+let cartCount = cart.length;
 
 updateCartNumber();
 checkCart(); 
 renderCartItems();
 
 function updateCartNumber() {
-  if (itemCount > 0) {
+  if (cartCount > 0) {
     cartNumber.style.display = 'block';
-    cartNumber.textContent = itemCount;
+    cartNumber.textContent = cartCount;
   } else {
     cartNumber.style.display = 'none';
   }    
@@ -82,7 +82,7 @@ function renderCartItems() {
       cart = cart.filter(cartItem => cartItem.name !== itemName);
       localStorage.setItem("cart", JSON.stringify(cart));
 
-      itemCount = cart.length; 
+      cartCount = cart.length; 
       renderCartItems();
       updateCartNumber();
       checkCart();
@@ -106,7 +106,7 @@ function renderCartItems() {
       }
       localStorage.setItem("cart", JSON.stringify(cart));
 
-      itemCount = cart.length; 
+      cartCount = cart.length; 
       renderCartItems();
       updateCartNumber();
       checkCart();
@@ -124,7 +124,7 @@ function renderCartItems() {
         localStorage.setItem("cart", JSON.stringify(cart));
       }
 
-      itemCount = cart.length; 
+      cartCount = cart.length; 
       renderCartItems();
       updateCartNumber();
       checkCart();
