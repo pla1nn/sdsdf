@@ -75,3 +75,20 @@
 .price_gap {
   padding-right: 1.8px;
 }
+
+
+
+
+.products_img {
+  transition: opacity 0.5s ease-in-out;
+  position: relative;
+  z-index: 1;
+}
+
+.products_img.unhover {
+  opacity: 0;
+}
+
+.products_img.hover {
+  opacity: 1;
+}

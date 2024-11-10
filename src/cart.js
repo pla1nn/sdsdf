@@ -1,8 +1,3 @@
-// document.addEventListener('DOMContentLoaded', () => {
-//   // Your code goes here
-//   renderCartItems();
-// });
-
 const cartNumber = document.querySelector('.cart_number');
 const cartButton = document.querySelector('.cart_button');
 

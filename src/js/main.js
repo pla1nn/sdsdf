@@ -75,13 +75,23 @@ const productImgs = document.querySelectorAll('.products_img');
 
 productImgs.forEach(img => {
   img.addEventListener('mouseenter', () => {
-    img.src = 'https://optim.tildacdn.com/tild6463-6439-4633-a530-306265363236/-/format/webp/photo.png';
-  })
+    img.classList.add('unhover');
+    setTimeout(() => {
+      img.src = 'https://optim.tildacdn.com/tild6463-6439-4633-a530-306265363236/-/format/webp/photo.png';
+      img.classList.remove('unhover');
+      img.classList.add('hover');
+    }, 400);
+  });
 
   img.addEventListener('mouseleave', () => {
-    img.src = 'https://optim.tildacdn.com/tild3763-3565-4633-b037-346338653065/-/format/webp/PFVTYF.png'
-  })
-})
+    img.classList.add('unhover');
+    setTimeout(() => {
+      img.src = 'https://optim.tildacdn.com/tild3763-3565-4633-b037-346338653065/-/format/webp/PFVTYF.png';
+      img.classList.remove('unhover');
+      img.classList.add('hover');
+    }, 400);
+  });
+});
 
 
 
